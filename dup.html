@@ -1,0 +1,82 @@
+<html>
+<head>
+    <script>
+    
+        var a = [[1,2,3,4,5],[3,5,7,2,4],[434,6,7,8,4,5,1]]
+        var res= []
+        
+         for(var i=0;i<a.length;i++)
+             {
+                 for(var n=0; n<a[i].length; n++)
+                     {
+                         res.push(a[i][n])
+                         
+                     } 
+             }
+   console.log(res)
+//        duplicates
+        var set = []
+        var dup = []
+        for( var k = 0;k<res.length; k++)
+            {
+                if(set.includes(res[k]))
+                    {
+                        dup.push(res[k])
+                    }
+                else
+                    {
+                        set.push(res[k])
+                        
+                    }
+            }
+    console.log(set)
+        console.log(dup)
+        
+        
+//        even or odd
+        
+        var even = []
+        var odd = []
+        for(var i = 0; i<res.length;i++)
+            {
+                if(res[i]%2==0)
+                    {
+                        even.push(res[i])
+                        
+                    }
+                else
+                {
+                    odd.push(res[i])
+                }
+            }
+        console.log(even)
+        console.log(odd)
+        
+//        less than 5
+        var less = []
+        var more = []
+        for(var i=0;i<res.length;i++)
+            {
+                if(res[i]<=5)
+                    {
+                        less.push(res[i])
+                    }
+                else
+                    {
+                        more.push(res[i])
+                        
+                    }
+            }
+        console.log(less)
+        console.log(more)
+    </script>
+    
+    
+    </head>
+<body>
+    
+    
+    </body>
+
+
+</html>
