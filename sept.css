@@ -1,0 +1,71 @@
+.container{
+        width: 100%;
+    height: 100%;
+    background-color: navy;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.row {
+    padding: 146px 26px 146px 40px;
+}
+.first{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+color: white;
+    font-family:cursive;
+}
+.mar{
+    margin-top: 98px;
+    margin-bottom: 10px;
+}
+.h3mar{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+.shadow{
+    -webkit-box-shadow: 14px 14px 34px 6px rgba(0,0,0,0.67);
+-moz-box-shadow: 14px 14px 34px 6px rgba(0,0,0,0.67);
+box-shadow: 14px 14px 34px 6px rgba(0,0,0,0.67);
+}
+.log{
+    color: skyblue;
+    font-family: cursive;
+    
+}
+.emailbox{
+    height: 40px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    width: 90%;
+}
+.fb{
+        color: #094aad;
+}
+.tw{
+    color: aqua;
+    font-size: 20px;
+}
+.goo{
+    color: red;
+}
+.fon{
+    padding-top: 120px;
+    padding-bottom: 90px;
+    font-size: 20px;
+}
+.but{
+    border-radius: 40px;
+    color: skyblue;
+    border-width:medium;
+    background-color: white;
+    border-bottom-color: skyblue;
+    border-top-color: skyblue;
+    border-left-color: skyblue;
+    border-right-color: skyblue;
+}
